@@ -58,7 +58,7 @@ Using the band gaps obtained from the automated workflow, a machine learning mod
 ### Process
 
 - A dataset of 20 predetermined Heusler compounds is used.
-- Descriptors are manually or programmatically extracted (e.g., atomic number, electronegativity, VEC, etc.).
+- Descriptors are programmatically extracted (e.g., atomic number, electronegativity, VEC, etc.).
 - The target variable is the DFT band gap (extracted from QE).
 - A **Random Forest Regressor** is trained on this dataset.
 - The trained model is evaluated using standard regression metrics (MAE, R², etc.).
